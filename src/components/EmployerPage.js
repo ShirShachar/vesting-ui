@@ -1,10 +1,18 @@
 import React from "react";
-import "./styles.css";
+import { Link } from 'react-router-dom';
+
+import '../styles/EmployerPage.css';
+
 
 const EmployerPage = () => {
   return (
     <div className="page">
       <h2>Employer Page</h2>
+      <div>
+      <h2>Employer Page</h2>
+      <p>Welcome, Employer! Your data goes here.</p>
+      <Link to="/">Back to Welcome</Link>
+      </div>
       <p>Wallet connected: 0x3r...456</p>
       <p>Wallet Balance: 300 ETH</p>
 

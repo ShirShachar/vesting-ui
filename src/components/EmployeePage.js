@@ -1,10 +1,17 @@
 import React from "react";
-import "./styles.css";
+import { Link } from 'react-router-dom';
+import '../styles/EmployeePage.css';
+
 
 const EmployeePage = () => {
   return (
     <div className="page">
       <h2>Employee Page</h2>
+      <div>
+      <h2>Employee Page</h2>
+      <p>Welcome, Employee! Your data goes here.</p>
+      <Link to="/">Back to Welcome</Link>
+      </div>
       <p>Wallet connected: 0x3r...123</p>
       <div className="progress">
         <div className="progress-bar" style={{ width: "60%" }}></div>
