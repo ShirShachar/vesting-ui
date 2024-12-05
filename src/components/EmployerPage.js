@@ -9,7 +9,6 @@ const EmployerPage = () => {
     <div className="page">
       <h2>Employer Page</h2>
       <div>
-      <h2>Employer Page</h2>
       <p>Welcome, Employer! Your data goes here.</p>
       <Link to="/">Back to Welcome</Link>
       </div>

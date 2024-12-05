@@ -1,33 +1,54 @@
 .welcome-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full-page height */
+    background-color: #f9f9f9; /* Light background */
+    font-family: Arial, sans-serif;
     text-align: center;
-    padding: 20px;
   }
   
-  .welcome-page h1 {
-    font-size: 2em;
+  .logo {
+    width: 150px;
+    height: auto;
     margin-bottom: 20px;
   }
   
-  .welcome-page p {
-    font-size: 1.2em;
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #555;
     margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 15px; /* Space between buttons */
   }
   
   .action-button {
-    margin: 10px;
     padding: 10px 20px;
-    font-size: 1em;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff; /* Blue for default */
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.3s ease;
   }
   
-  .action-button.gray {
-    background: #ccc;
+  .action-button.orange {
+    background-color: #ff8c42; /* Light orange background */
   }
   
   .action-button:hover {
-    background: #4caf50;
-    color: white;
+    transform: scale(1.05);
+    opacity: 0.9;
   }
   

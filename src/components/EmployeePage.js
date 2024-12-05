@@ -8,7 +8,6 @@ const EmployeePage = () => {
     <div className="page">
       <h2>Employee Page</h2>
       <div>
-      <h2>Employee Page</h2>
       <p>Welcome, Employee! Your data goes here.</p>
       <Link to="/">Back to Welcome</Link>
       </div>
